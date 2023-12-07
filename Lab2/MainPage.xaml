@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab2.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Text="Exit" HorizontalOptions="End" VerticalOptions="Start" Clicked="OnExitClicked" />
+
+        <VerticalStackLayout Grid.Row="0" Grid.Column="0" Spacing="25" Padding="30,0">
+            <Label Text="Виберіть курс:" FontSize="Medium"/>
+            <Picker x:Name="CoursePicker" SelectedIndexChanged="OnCourseSelected"/>
+
+            <Label Text="Виберіть факультет:" FontSize="Medium"/>
+            <Picker x:Name="DepartmentPicker" SelectedIndexChanged="OnDepartmentSelected"/>
+
+            <Label Text="Виберіть семінар:" FontSize="Medium"/>
+            <Picker x:Name="ClassPicker" SelectedIndexChanged="OnClassSelected"/>
+
+            <Entry x:Name="SearchEntry" Placeholder="Введіть ключові слова для пошуку" />
+
+            <Button Text="Пошук" Clicked="OnSearchButtonClicked" />
+
+            <Button Text="Очистити" Clicked="OnClearButtonClicked" />
+
+            <WebView x:Name="SearchResultsWebView" />
+
+        </VerticalStackLayout>
+
+        <StackLayout Grid.Row="2" Grid.Column="0" Orientation="Horizontal" HorizontalOptions="Start" Padding="10" Spacing="10">
+            <Picker x:Name="StrategyPicker" Title="Виберіть стратегію">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>SAX</x:String>
+                        <x:String>DOM</x:String>
+                        <x:String>LINQ</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Button Text="Зберегти HTML" Clicked="OnSaveHtmlButtonClicked" />
+        </StackLayout>
+        <Frame Grid.Row="0" Grid.RowSpan="3" Grid.Column="1" Padding="15" Margin="20" CornerRadius="10" BorderColor="LightGray">
+            <ScrollView>
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="Деталі класу:" FontSize="Medium" FontAttributes="Bold" IsVisible="False" x:Name="DetailsLabel"/>
+                    <Label x:Name="TypeLabel" FontSize="Small" Text="Тип:" IsVisible="False"/>
+                    <Label x:Name="TimeLabel" FontSize="Small" Text="Час:" IsVisible="False"/>
+                    <Label x:Name="LeaderNameLabel" FontSize="Small" Text="Лідер:" IsVisible="False"/>
+                    <Label x:Name="LeaderPhoneLabel" FontSize="Small" Text="Телефон лідера:" IsVisible="False"/>
+                    <Label x:Name="InstructorLabel" FontSize="Small" Text="Інструктор:" IsVisible="False"/>
+                    <Label x:Name="ContactInfoLabel" FontSize="Small" Text="Контакт з інструктором можливий тільки через лідера, також якщо у вас є питання то задавайте їх вашому лідеру групи." IsVisible="False"/>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Frame>
+    </Grid>
+</ContentPage>

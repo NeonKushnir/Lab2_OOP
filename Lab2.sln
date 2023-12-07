@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab2\Lab2.csproj", "{DC23B9D8-299E-4019-8A45-1702FCBDE8F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{C588FB6B-D558-4D22-9755-8D0FB1527A85}"
+	ProjectSection(SolutionItems) = preProject
+		models.cs = models.cs
+		xmlProcessor.cs = xmlProcessor.cs
+		xmlReader.cs = xmlReader.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC23B9D8-299E-4019-8A45-1702FCBDE8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC23B9D8-299E-4019-8A45-1702FCBDE8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC23B9D8-299E-4019-8A45-1702FCBDE8F5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC23B9D8-299E-4019-8A45-1702FCBDE8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC23B9D8-299E-4019-8A45-1702FCBDE8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC23B9D8-299E-4019-8A45-1702FCBDE8F5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA3D7D80-8D55-45B8-BAFE-18329CC403F4}
+	EndGlobalSection
+EndGlobal

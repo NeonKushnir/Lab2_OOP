@@ -1,0 +1,113 @@
+<university>
+    <department name="ФКНК" location="1 аудиторія ФКНК" id="12">
+        <course name="1 курс">
+            <class type="АОС" time="кожен вівторок та четвер о 15:00">
+                <leader name="Луковський Максим" phone="098-235-32-55"/>
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="С++ - Junior lvl" time="кожен понеділок та середа о 15:00">
+                <leader name="Хміль Діана" phone="067-324-77-77"/>
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+        <course name="2 курс">
+            <class type="ООП - MAUI" time="кожен вівторок та четвер о 16:00">
+                <leader name="Луковський Максим" phone="098-235-32-55"/>
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="С++ - Middle lvl" time="кожен понеділок та середа о 16:00">
+                <leader name="Хміль Діана" phone="067-324-77-77"/>
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+       
+    </department>
+ <department name="Прикладна математика" location="24 кабінет ФІЗ.МАТ" id="10">
+        <course name="1 курс">
+            <class type="АОС" time="кожен вівторок та четвер о 15:00">
+                <leader name="Луковський Максим" phone="098-235-32-55"/>
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="С++ - Junior lvl" time="кожен понеділок та середа о 15:00">
+                <leader name="Хміль Діана" phone="067-324-77-77"/>
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+        <course name="2 курс">
+            <class type="ООП - MAUI" time="кожен вівторок та четвер о 16:00">
+                <leader name="Луковський Максим" phone="098-235-32-55"/>
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="С++ - Middle lvl" time="кожен понеділок та середа о 16:00">
+                <leader name="Хміль Діана" phone="067-324-77-77"/>
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+    </department>
+<department name="МІ" location="1 аудиторія ФКНК" id="1214">
+        <course name="3 курс">
+            <class type="C++ - Still not senior because u loser" time="кожен вівторок та четвер о 17:00">
+                <leader name="Луковський Максим" phone="098-235-32-55"/>
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="JavaScript" time="кожен понеділок та середа о 17:00">
+                <leader name="Хміль Діана" phone="067-324-77-77"/>
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+        <course name="4 курс">
+            <class type="Oh, u already here, looooooooser" time="кожен вівторок та четвер о 20:00">
+                <leader name="Луковський Максим" phone="098-235-32-55"/>
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="С++ - not senior, hahaha" time="кожен вівторок та четвер о 18:00">
+                <leader name="Хміль Діана" phone="067-324-77-77"/>
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+    </department>
+<department name="ТТП" location="1 аудиторія ФКНК" id="123">
+        <course name="3 курс">
+            <class type="Філософія - Still not senior because u loser" time="кожен вівторок та четвер о 17:00">
+                <leader name="Луковський Максим" phone="098-235-32-55" />
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="JavaScript" time="кожен понеділок та середа о 17:00">
+                <leader name="Хміль Діана" phone="067-324-77-77" />
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+        <course name="4 курс">
+            <class type="Oh, u already here, looooooooser" time="кожен вівторок та четвер о 20:00">
+                <leader name="Луковський Максим" phone="098-235-32-55" />
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="С++ - not senior, hahaha" time="кожен вівторок та четвер о 18:00">
+                <leader name="Хміль Діана" phone="067-324-77-77"/>
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+    </department>
+<department name="Супер примат" location="1 аудиторія ФІЗ-МАТ" id="11">
+        <course name="3 курс">
+            <class type="C++ - Still not senior because u loser" time="кожен вівторок та четвер о 17:00">
+                <leader name="Луковський Максим" phone="098-235-32-55"/>
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="JavaScript" time="кожен понеділок та середа о 17:00">
+                <leader name="Хміль Діана" phone="067-324-77-77"/>
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+        <course name="4 курс">
+            <class type="Супер дупер математика" time="кожен вівторок та четвер о 20:00">
+                <leader name="Луковський Максим" phone="098-235-32-55"/>
+                <instructor name="Русіна Наталія Генадівна" />
+            </class>
+            <class type="С++ - not senior, hahaha" time="кожен вівторок та четвер о 18:00">
+                <leader name="Хміль Діана" phone="067-324-77-77"/>
+                <instructor name="ОМЕЛЬЧУК ЛЮДМИЛА ЛЕОНІДІВНА" />
+            </class>
+        </course>
+    </department>
+</university>
